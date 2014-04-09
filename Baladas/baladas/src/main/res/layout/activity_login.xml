@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.uniararas.baladas.login"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    style="@style/defaultScreenStyle">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:paddingTop="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="top|left">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:text="@string/login_title"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/login_userName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="20"
+            android:hint="@string/login_userNameMessage"/>
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:maxLength="20"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <Button android:id="@+id/login_button_Enter"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:text="@string/login_buttonEnterMessage"
+            style="@style/buttonStyle"
+            />
+
+        <Button android:id="@+id/login_button_NewAcount"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:text="@string/login_buttonNewAcountMessage"
+            style="@style/buttonStyle"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

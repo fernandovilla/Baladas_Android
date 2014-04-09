@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Baladas</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="login_title">Baladas UNIARARAS</string>
+    <string name="login_buttonEnterMessage">Entrar</string>
+    <string name="login_buttonNewAcountMessage">Nova Conta</string>
+    <string name="login_userNameMessage">Informe seu usuário...</string>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#cccccc</color>
+    <color name="cianBlue">#0095b6</color>
+    <color name="lightBlue">#66ccff</color>
+    <color name="royalBlue">#0000ff</color>
+
+    <string name="title_activity_pesquisa">Pesquisa</string>
+    <string name="title_activity_balada">Balada</string>
+
+</resources>

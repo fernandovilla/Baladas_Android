@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:textColor">#ffffff</item> <!-- White -->
+    </style>
+
+    <style name="defaultScreenStyle">
+        <item name="android:background">#000000</item> <!-- Black -->
+    </style>
+
+</resources>
