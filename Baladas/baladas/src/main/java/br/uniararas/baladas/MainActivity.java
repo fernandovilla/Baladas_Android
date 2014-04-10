@@ -9,7 +9,7 @@ public class MainActivity extends ActionBarActivity
 {
     //Ciclo de Vida de uma Activity
 
-    private Button botaoMain;
+    //private Button botaoMain;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -17,8 +17,8 @@ public class MainActivity extends ActionBarActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        botaoMain = (Button)findViewById(R.id.main_button);
-        botaoMain.setOnClickListener()
+        //botaoMain = (Button)findViewById(R.id.main_button);
+        //botaoMain.setOnClickListener();
     }
 
     @Override

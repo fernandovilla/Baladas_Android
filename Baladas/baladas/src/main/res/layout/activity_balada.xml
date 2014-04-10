@@ -7,7 +7,209 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     style="@style/defaultScreenStyle">
 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        android:layout_gravity="top|center">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="@color/gray"
+            android:text="@string/login_title"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        style="@style/backgroundGray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView android:id="@+id/balada_imv_fotoBalada"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="top|center"
+                android:src="@drawable/ic_launcher"
+                />
+
+            <TextView android:id="@+id/balada_tv_localBalada"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:hint="[Nome da Balada]"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4dp">>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Balada: "
+                    android:gravity="right"
+                    style="@style/defaultTextView"/>
+
+                <TextView android:id="@+id/balada_tv_nomeBalada"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="[nome_da_balada]"
+                    style="@style/defaultTextView"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4dp">>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Data: "
+                    android:gravity="right"
+                    style="@style/defaultTextView"/>
+
+                <TextView android:id="@+id/balada_tv_dataBalada"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="[data_da_balada]"
+                    style="@style/defaultTextView"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Início: "
+                    android:gravity="right"
+                    style="@style/defaultTextView"/>
+
+                <TextView android:id="@+id/balada_tv_inicioBalada"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="[início_da_balada]"
+                    style="@style/defaultTextView"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Open Bar: "
+                    android:gravity="right"
+                    style="@style/defaultTextView"/>
+
+                <ToggleButton android:id="@+id/pesquisa_tb_openbar"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textOn="@string/pesquisa_toggleOnMessage"
+                    android:textOff="@string/pesquisa_toggleOffMessage"
+                    style="@style/buttonStyle"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <Button android:id="@+id/balada_bt_atualizar"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pesquisa_buttonAtuailzarMessage"
+                        android:layout_centerInParent="true"
+                        style="@style/buttonStyle"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <Button android:id="@+id/pesquisa_bt_ondefica"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pesquisa_buttonOndeFicaMessage"
+                        android:layout_centerInParent="true"
+                        style="@style/buttonStyle"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <Button android:id="@+id/pesquisa_bt_euvou"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pesquisa_buttonEuVouMessage"
+                        android:layout_centerInParent="true"
+                        style="@style/buttonStyle"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>

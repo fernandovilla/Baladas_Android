@@ -11,35 +11,5 @@
     tools:context="br.uniararas.baladas.MainActivity"
     style="@style/defaultScreenStyle">
 
-    <TextView
-        android:text="User Name:"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
-
-    <EditText
-        android:id="@+id/main_userName"
-        android:name="username"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:text="Passoword:"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <EditText
-        android:id="@+id/main_password"
-        android:name="password"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
-
-    <Button
-        android:id="@+id/main_button"
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:text="Login"
-    />
-
-
 
 </LinearLayout>

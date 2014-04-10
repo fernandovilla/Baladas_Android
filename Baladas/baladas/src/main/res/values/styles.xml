@@ -13,4 +13,14 @@
         <item name="android:background">#000000</item> <!-- Black -->
     </style>
 
+    <style name="backgroundGray">
+        <item name="android:background">#737272</item>
+    </style>
+
+    <style name="defaultTextView">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+
 </resources>
