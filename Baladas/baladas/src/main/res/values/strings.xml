@@ -5,18 +5,18 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">Login</string>
-
     <string name="login_title">Baladas UNIARARAS</string>
     <string name="login_buttonEnterMessage">Entrar</string>
     <string name="login_buttonNewAcountMessage">Nova Conta</string>
     <string name="login_userNameMessage">Informe seu usuário...</string>
-
     <string name="pesquisa_keyWordMessage">Pesquise pelo nome da balada...</string>
     <string name="pesquisa_buttonAtuailzarMessage">Atualizar</string>
     <string name="pesquisa_buttonOndeFicaMessage">Onde Fica?</string>
     <string name="pesquisa_buttonEuVouMessage">Eu Vou</string>
     <string name="pesquisa_toggleOnMessage">Sim</string>
     <string name="pesquisa_toggleOffMessage">Não</string>
+    <string name="cadastroBalada_toggleOn">Sim</string>
+    <string name="cadastroBalada_toggleOff">Não</string>
 
     <color name="black">#000000</color>
     <color name="white">#ffffff</color>
@@ -28,5 +28,6 @@
 
     <string name="title_activity_pesquisa">Pesquisa</string>
     <string name="title_activity_balada">Balada</string>
+    <string name="title_activity_cadastro_balada">Cadastro Balada</string>
 
 </resources>

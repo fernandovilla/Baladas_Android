@@ -22,5 +22,11 @@
         <item name="android:textSize">20dp</item>
     </style>
 
+    <string name="temaBalada_prompt">Tema da balada (selecione)</string>
+    
+    <string-array name="temaBaladas">
+        <item>Festa a Fantasia</item>
+        <item>Festa do Pijama</item>
+    </string-array>
 
 </resources>

@@ -11,19 +11,13 @@
     style="@style/defaultScreenStyle" >
 
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="100dp"
-        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_gravity="top|left">
+        android:padding="20dp">
 
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:textSize="30dp"
-            android:gravity="center"
-            android:textColor="@color/gray"
-            android:text="@string/login_title"/>
+        <include layout="@layout/title_bar"/>
+
     </LinearLayout>
 
     <LinearLayout
