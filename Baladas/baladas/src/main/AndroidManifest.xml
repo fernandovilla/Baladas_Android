@@ -7,19 +7,23 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
         <activity
             android:name="br.uniararas.baladas.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name="br.uniararas.baladas.Atividade2" />
+
         <activity
             android:name="br.uniararas.baladas.login"
             android:label="Login" >
         </activity>
+
         <activity
             android:name="br.uniararas.baladas.pesquisa"
             android:label="@string/title_activity_pesquisa" >
@@ -31,6 +35,16 @@
         <activity
             android:name="br.uniararas.baladas.cadastroBalada"
             android:label="@string/title_activity_cadastro_balada" >
+        </activity>
+        <activity
+            android:name="br.uniararas.baladas.sample"
+            android:label="@string/title_activity_sample" >
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
         </activity>
     </application>
 

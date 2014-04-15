@@ -1,5 +1,6 @@
 package br.uniararas.baladas;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -17,8 +18,20 @@ public class MainActivity extends ActionBarActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //botaoMain = (Button)findViewById(R.id.main_button);
-        //botaoMain.setOnClickListener();
+        /*
+        Intent intencao = getIntent();
+        intencao.getExtras().putString("user", "fernando");
+        intencao.getExtras().putString("pass", "123456");
+
+        String user = intencao.getExtras().getString("user");
+        String pass = intencao.getExtras().getString("pass");
+        */
+
+        //Intent intencao = new Intent(this, Atividade2.class);
+
+        Intent intencao = new Intent(this, login.class);
+
+        startActivity(intencao);
     }
 
     @Override

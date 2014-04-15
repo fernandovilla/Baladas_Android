@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">Baladas</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -37,5 +36,4 @@
     <string name="title_activity_balada">Balada</string>
     <string name="title_activity_cadastro_balada">Cadastro Balada</string>
     <string name="title_activity_sample">Sample</string>
-
 </resources>

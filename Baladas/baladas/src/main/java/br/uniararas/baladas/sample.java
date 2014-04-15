@@ -1,31 +1,42 @@
 package br.uniararas.baladas;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
-public class pesquisa extends ActionBarActivity {
-
-    private String userName = null;
-    private String password = null;
+public class sample extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pesquisa);
+        setContentView(R.layout.activity_sample);
 
-        this.userName = getIntent().getExtras().getString("UserName");
-        this.password = getIntent().getExtras().getString("Password");
+        Button button1 = (Button)findViewById(R.id.sample_btn_1);
+
+        button1.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view) { Button1_OnClick(view); }
+        });
+
     }
 
+    private void Button1_OnClick(View view)
+    {
+        Intent intencao = new Intent(sample.this, Atividade2.class);
+        startActivity(intencao);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.pesquisa, menu);
+        getMenuInflater().inflate(R.menu.sample, menu);
         return true;
     }
 
