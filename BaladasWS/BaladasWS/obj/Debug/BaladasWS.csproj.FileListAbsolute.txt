@@ -1,0 +1,23 @@
+C:\Users\Fernando\Desktop\BaladasWS\BaladasWS\bin\BaladasWS.dll
+C:\Users\Fernando\Desktop\BaladasWS\BaladasWS\bin\BaladasWS.pdb
+C:\Users\Fernando\Desktop\BaladasWS\BaladasWS\obj\Debug\BaladasWS.dll
+C:\Users\Fernando\Desktop\BaladasWS\BaladasWS\obj\Debug\BaladasWS.pdb
+C:\Users\Fernando\Desktop\BaladasWS\BaladasWS\obj\Debug\BaladasWS.csprojResolveAssemblyReference.cache
+C:\Users\Fernando.MICROLEME\Desktop\BaladasWS\BaladasWS\obj\Debug\BaladasWS.csprojResolveAssemblyReference.cache
+C:\Users\Fernando.MICROLEME\Desktop\BaladasWS\BaladasWS\obj\Debug\BaladasWS.dll
+C:\Users\Fernando.MICROLEME\Desktop\BaladasWS\BaladasWS\obj\Debug\BaladasWS.pdb
+D:\CloudDrive\GoogleDrive\Uniararas\Projeto de Software para Dispositivos Móveis\Aula 3\BaladasWS\BaladasWS\obj\Debug\BaladasWS.csprojResolveAssemblyReference.cache
+D:\CloudDrive\GoogleDrive\Uniararas\Projeto de Software para Dispositivos Móveis\Aula 3\BaladasWS\BaladasWS\obj\Debug\BaladasWS.dll
+D:\CloudDrive\GoogleDrive\Uniararas\Projeto de Software para Dispositivos Móveis\Aula 3\BaladasWS\BaladasWS\bin\BaladasWS.dll
+D:\CloudDrive\GoogleDrive\Uniararas\Projeto de Software para Dispositivos Móveis\Aula 3\BaladasWS\BaladasWS\bin\BaladasWS.pdb
+D:\CloudDrive\GoogleDrive\Uniararas\Projeto de Software para Dispositivos Móveis\Aula 3\BaladasWS\BaladasWS\obj\Debug\BaladasWS.pdb
+D:\SigEFD\Trabalho\BaladasWS\BaladasWS\bin\BaladasWS.dll.config
+D:\SigEFD\Trabalho\BaladasWS\BaladasWS\bin\BaladasWS.dll
+D:\SigEFD\Trabalho\BaladasWS\BaladasWS\bin\BaladasWS.pdb
+D:\SigEFD\Trabalho\BaladasWS\BaladasWS\obj\Debug\BaladasWS.dll
+D:\SigEFD\Trabalho\BaladasWS\BaladasWS\obj\Debug\BaladasWS.pdb
+D:\CloudDrive\GoogleDrive\Uniararas\Projeto de Software para Dispositivos Móveis\Trabalho\BaladasWS\BaladasWS\bin\BaladasWS.dll.config
+D:\CloudDrive\GoogleDrive\Uniararas\Projeto de Software para Dispositivos Móveis\Trabalho\BaladasWS\BaladasWS\bin\BaladasWS.dll
+D:\CloudDrive\GoogleDrive\Uniararas\Projeto de Software para Dispositivos Móveis\Trabalho\BaladasWS\BaladasWS\bin\BaladasWS.pdb
+D:\CloudDrive\GoogleDrive\Uniararas\Projeto de Software para Dispositivos Móveis\Trabalho\BaladasWS\BaladasWS\obj\Debug\BaladasWS.dll
+D:\CloudDrive\GoogleDrive\Uniararas\Projeto de Software para Dispositivos Móveis\Trabalho\BaladasWS\BaladasWS\obj\Debug\BaladasWS.pdb
