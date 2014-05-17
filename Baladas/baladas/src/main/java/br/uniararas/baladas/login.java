@@ -15,6 +15,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import br.uniararas.baladas.model.RealizarLogin;
+import br.uniararas.baladas.model.Usuario;
 
 public class login extends ActionBarActivity
 {
@@ -71,21 +73,24 @@ public class login extends ActionBarActivity
 
     private void btnEnter_OnClick(View view)
     {
-        boolean loginOK =
-                (!this.edtUserName.getText().toString().equals("") && !this.edtPassword.getText().toString().equals("")) &&
-                (this.edtUserName.getText().toString().equals("fernando") && this.edtPassword.getText().toString().equals("123456"));
+        String username = edtUserName.getText().toString();
+        String password = edtPassword.getText().toString();
+
+        RealizarLogin realizarLogin = new RealizarLogin(this, username, password);
+
+        realizarLogin.execute(new Usuario());
 
         Log.i("UserName: " + this.edtUserName.getText().toString(), "Password: " + this.edtPassword.getText().toString());
 
-        if (loginOK)
-        {
-            this.ShowPesquisaActivity();
-        }
-        else
-        {
-            Message.Show(this, "Acesso Negado", "Login ou senha são inválidos", true, false);
-            //Toast.makeText(login.this, "Acesso Negado!", Toast.LENGTH_LONG);
-        }
+        //if (loginOK)
+        //{
+        //    this.ShowPesquisaActivity();
+        //}
+        //else
+        //{
+        //    Message.Show(this, "Acesso Negado", "Login ou senha são inválidos", true, false);
+        //    //Toast.makeText(login.this, "Acesso Negado!", Toast.LENGTH_LONG);
+        //}
     }
 
     private void btnNewAcount_OnClick(View view)
